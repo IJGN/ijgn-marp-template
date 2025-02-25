@@ -1,0 +1,118 @@
+/* @theme style */
+ 
+@import 'default';
+
+:root {
+  --ijgn-color-light-red: #F0C1C0;
+  --ijgn-color-red: #CD322E;
+  --ijgn-color-light-gray: #BDBDBD;
+  --ijgn-color-gray: #828282;
+  --ijgn-color-dark-gray: #4F4F4F;
+  --ijgn-color-black: #00002E;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  color: gray;
+  color: var(--ijgn-color-gray);
+}
+footer .logo::before {
+  display: block;
+  content: "";
+  width: 140px;
+  height: calc(439 / 2000 * 140px); /* 画像縦サイズ / 画像横サイズ * width */
+  background-image: url(./assets/image/logo/ijgn-group.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .confidential {
+  color: var(--ijgn-color-red);
+  font-weight: bold;
+}
+
+/* プレゼンタイトル */
+section.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--ijgn-color-red);
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: calc(100% - 2 * 40px);
+    padding: 40px 80px;
+    border: 8px solid white;
+    font-size: 48px;
+    line-height: 1.25;
+    color: white;
+    text-align: center;
+  }
+}
+section.hero::before {
+  position: absolute;
+  bottom: 40px;
+  left: auto;
+  right: auto;
+  z-index: 100;
+  content: "";
+  display: block;
+  width: 200px;
+  height: calc(439 / 2000 * 200px); /* 画像縦サイズ / 画像横サイズ * width */
+  background-image: url(./assets/image/logo/ijgn-group-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* デフォルトページ */
+section.default {
+  place-content: safe start center;
+  font-size: 24px;
+  color: var(--ijgn-color-black);
+  h2 {
+    font-size: 36px;
+    text-decoration: underline;
+    text-decoration-color: var(--ijgn-color-red);
+    text-decoration-thickness: 10px;
+    text-decoration-skip-ink: none;
+  }
+  mark {
+    background-color: var(--ijgn-color-light-red);
+  }
+  table {
+    th {
+      background-color: var(--ijgn-color-red);
+      color: white;
+    }
+  }
+}
+
+/* 〆スライド */
+section.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ijgn-color-red);
+  width: 100%;
+  height: 100%;
+}
+section.last::before {
+  content: "";
+  width: 500px;
+  height: calc(439 / 2000 * 500px); /* 画像縦サイズ / 画像横サイズ * width */
+  background-image: url(./assets/image/logo/ijgn-group-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
