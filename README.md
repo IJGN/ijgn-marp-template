@@ -17,4 +17,4 @@
 ```
 
 #### 参考資料
-> <a href="" target="_blank">Marpで独自CSSを使う方法</a>
+> <a href="https://worklifefun.net/marp-own-css/#:~:text=uncover-,Marp%E3%81%A7%E7%8B%AC%E8%87%AACSS%E3%82%92%E4%BD%BF%E3%81%86%E6%96%B9%E6%B3%95,-3%E3%81%A4%E3%81%AE" target="_blank">Marpで独自CSSを使う方法</a>
