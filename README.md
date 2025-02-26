@@ -10,6 +10,12 @@
 
 [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) プラグインを、VSCodeに追加しておきます。
 
+### User
+
+![setting](setting.png)
+
+### Workspace
+
 プロジェクトに `.vscode/settings.json` を追加。  
 URL かファイルパスのどちらか片方で良い。
 
