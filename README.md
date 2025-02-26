@@ -100,3 +100,6 @@ _paginate: false
 -->
 
 ```
+
+[IJGN/ijgn-marp-template](https://github.com/IJGN/ijgn-marp-template)
+
