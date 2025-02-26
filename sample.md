@@ -1,7 +1,7 @@
 ---
 marp: true
-theme: style
-footer: '<span class="logo"></span><span class="copyright">&copy; IJGN GROUP Inc.</span><span class="confidential">Confidential</span>'
+theme: ijgn
+footer: '&copy; IJGN GROUP Inc.<span class="confidential">Confidential</span>'
 paginate: true
 ---
 <!--
