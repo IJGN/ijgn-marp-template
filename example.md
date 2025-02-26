@@ -4,19 +4,23 @@ theme: ijgn
 footer: '&copy; IJGN GROUP Inc.'
 paginate: true
 ---
+
 <!--
 _class: hero
 _footer: ''
 _paginate: false
 -->
-# マークアップ勉強会
 
-ver2.0
+# IJGN テンプレート
+
+ver 1.0.0
 
 ---
+
 <!--
 _class: default
 -->
+
 ## 文字装飾
 
 - ふつう
@@ -32,9 +36,11 @@ _class: default
 > 引用
 
 ---
+
 <!--
 _class: default
 -->
+
 ## 画像
 
 ![w:400](https://storage.googleapis.com/studio-design-asset-files/projects/VGOKvryjWn/s-2400x621_v-frms_webp_695b6ef8-230d-4486-8102-79e8de042ca8_small.webp)
@@ -49,9 +55,11 @@ _class: default
 | タスク C |    20% |   +20% |
 
 ---
+
 <!--
 _class: default
 -->
+
 ## コード
 
 ```jsx
@@ -70,6 +78,7 @@ function Video({ video }) {
 ```
 
 ---
+
 <!--
 _class: last
 _footer: ''
