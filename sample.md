@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: ijgn
-footer: '&copy; IJGN GROUP Inc.<span class="confidential">Confidential</span>'
+footer: '&copy; IJGN GROUP Inc.'
 paginate: true
 ---
 <!--
@@ -17,59 +17,57 @@ ver2.0
 <!--
 _class: default
 -->
-## もくじ
+## 文字装飾
 
-1. 背景（再掲）
-2. 残検討事項
-3. やりたいこと（再掲）
-4. できている／これから
-    - フォーム生成
-    - メールで案内
-    - 集計と共有
-5. マニュアル（仮骨子）
+- ふつう
+- *イタリック*
+- **強調**
+- ~~打ち消し~~
+- [リンク](https://ijgn.jp)
 
-テスト
+### 見出し 3
 
----
-<!--
-_class: default
--->
-## 残検討事項
+テキスト
 
-- クイズの回答後、どういうFBがあると、回答者のためになるか？
-  - → FB頻度や方法と密接に関係する
-
-- スクリプトで<strong>自動化を実現</strong>しているが、よいか？
----
-<!--
-_class: default
--->
-## 進捗概要
-
-| 項目               | 進捗率 | 前回比 |
-| :----------------- | ----: | ----: |
-| フォーム作成       | 75%    | +05%   |
-| メールで案内       | 50%    | +50%   |
-| （回答／結果記録）  | -      |        |
-| 集計し共有        | 20%    | +20%   |
-
-→集計と共有の方法は要検討（FBの目的と関連）
+> 引用
 
 ---
 <!--
 _class: default
 -->
-## 進捗概要
-aaaaa
-aa**aaaa**aa<mark>aaa</mark>aa~~aaaa~~aaaabbbb`bbbbbb`bbbbbbbb
-```javascript
-document.querySelector(".lesson1__button").addEventListener("click", function() {
-  const classTaro = document.querySelector(".lesson1__taro");
-  classTaro.style.color = "#ff0000";
-});
+## 画像
+
+![w:400](https://storage.googleapis.com/studio-design-asset-files/projects/VGOKvryjWn/s-2400x621_v-frms_webp_695b6ef8-230d-4486-8102-79e8de042ca8_small.webp)
+
+## テーブル
+
+| 項目     | 進捗率 | 前回比 |
+|:-------- | ------:| ------:|
+| タスク A |    75% |   +05% |
+| タスク B |    50% |   +50% |
+| （補足） |      - |      - |
+| タスク C |    20% |   +20% |
+
+---
+<!--
+_class: default
+-->
+## コード
+
+```jsx
+function Video({ video }) {
+  return (
+    <div>
+      <Thumbnail video={video} />
+      <a href={video.url}>
+        <h3>{video.title}</h3>
+        <p>{video.description}</p>
+      </a>
+      <LikeButton video={video} />
+    </div>
+  );
+}
 ```
-![ロゴ](https://docbase.io/logo.png)
-[寿司 - Wikipedia](http://ja.wikipedia.org/wiki/%E5%AF%BF%E5%8F%B8)
 
 ---
 <!--
