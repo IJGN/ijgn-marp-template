@@ -1,8 +1,6 @@
 {
   "markdown.marp.themes": [
-    // "https://example.com/foo/bar/custom-theme.css",
-    // TODO: URL で取得できるようにしたい
-    // ただし、オフライン環境も考慮
+    "https://marp.ijgn.jp/themes/ijgn.css",
     "./themes/ijgn.css"
   ]
 }
