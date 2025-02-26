@@ -26,6 +26,8 @@ URL かファイルパスのどちらか片方で良い。
 
 [example.md](example.md)
 
+![example](example.png)
+
 ```markdown
 ---
 marp: true
